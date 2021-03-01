@@ -1,0 +1,81 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Qalyn mal</title>
+    </head>
+    <body style="background: rgb(244,168,200);
+    background: -moz-linear-gradient(90deg, rgba(244,168,200,1) 0%, rgba(0,109,246,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(244,168,200,1) 0%, rgba(0,109,246,1) 100%);
+    background: linear-gradient(90deg, rgba(244,168,200,1) 0%, rgba(0,109,246,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f4a8c8, endColorstr="#006df6",GradientType=1);>
+    <h4 style="margin: 0%;  font-family: Arial, Helvetica, sans-serif; font-size: 17px;">Enter bride's name:</h4>
+    <br>
+    <label for="name">First name:</label>
+    <input type="text" id="name" name="name">
+    <hr>
+
+    <h4 style="margin: 0%;  font-family: Arial, Helvetica, sans-serif; font-size: 17px;">Enter starting bid:</h4>
+    <br>
+    <label for="bid">Starting bid:</label>
+    <input type="number" id="bid" name="bid">
+    <hr>
+
+    <h4 style="margin: 0%;  font-family: Arial, Helvetica, sans-serif; font-size: 17px;">Choose bride's degree:</h4>
+    <br>
+    <select id="Graduate" name="Graduate">
+        <option value="0">Select value</option>
+        <option value="1.5">Undergraduate degree</option>
+        <option value="1.2">College degree</option>
+        <option value="1.05">High school degree</option>
+        <option value="0.9">Middle school degree</option>
+    </select>
+    </div>
+    <hr>
+    <h4 style="font-family: Arial, Helvetica, sans-serif; font-size: 17px;">Choose bride's family networth:</h4>
+    <select id="NetWorth" name="Family net worth">
+        <option value="0">Select value</option>
+        <option value="2">More than 100,000$</option>
+        <option value="1.5">Between 50,000$ and 100,000$</option>
+        <option value="1.2">Less than 50,000$</option>
+    </select>
+    </div>
+    <hr>
+    <h4 style="font-family: Arial, Helvetica, sans-serif; font-size: 17px;">Choose bride's skills:</h4>
+        <input id="skill1" name="skill1" type="checkbox" value="100">
+        <label for="skill1"> Playing on dombra</label><br>
+        <input id="skill2" name="skill2" type="checkbox" value="200">
+        <label for="skill2"> Good cook</label><br>
+        <input id="skill3" name="skill3" type="checkbox" value="150">
+        <label for="skill3"> Easygoing character</label><br>
+        <input id="skill4" name="skill4" type="checkbox" value="100">
+        <label for="skill4"> Sings well</label>
+    </div>
+    <hr>
+    <h4 style="font-family: Arial, Helvetica, sans-serif; font-size: 17px;">Choose bride's age:</h4>
+        <input id="between18" name="age" type="radio" value="1.5">
+        <label for="between18"> Between 18-23</label><br>
+        <input id="between24" name="age" type="radio" value="1.2">
+        <label for="between24"> Between 24-27</label><br>
+        <input id="28+" name="age" type="radio" value="0.95">
+        <label for="28+"> 28+</label>
+    </div>
+    <hr>
+    <h4 style="font-family: Arial, Helvetica, sans-serif; font-size: 17px;">Choose bride's reputation:</h4>
+        <input id="option1" name="reputation1" type="checkbox" value="0.85">
+        <label for="option1"> Gossips about his/her parent's attitude</label><br>
+        <input id="option2" name="reputation2" type="checkbox" value="0.9">
+        <label for="option2"> Gossips about his/her character</label><br>
+        <input id="option3" name="reputation3" type="checkbox" value="-200">
+        <label for="option3"> General gossips around his/her person</label>
+    </div>
+    <hr>
+    <h4 style="margin: 0%;  font-family: Arial, Helvetica, sans-serif; font-size: 17px;">Love letter:</h4>
+    <textarea id="letter" rows="11" cols="70" maxlength="500"></textarea>
+    <br>
+    <div class="button">
+    <button id="calculate">Calculate</button>
+    </div>
+    <script src="app.js"></script>
+    </body>
+    </html>
